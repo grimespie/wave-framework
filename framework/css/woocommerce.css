@@ -1,0 +1,34 @@
+/**
+ *
+ * WooCommerce
+ *
+ */
+
+ul.products {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.products li {
+    float: left;
+    border: 1px solid #CCCCCC;
+    width: 23.5%;
+    padding-bottom: 10px;
+    margin-right: 2%;
+}
+
+ul.products li:nth-child(4n) {
+    margin-right: 0;
+}
+
+ul.products li:nth-child(4n+1) {
+    clear: both;
+}
+
+ul.products li h3 {
+    margin: 10px;
+}
+
+ul.products li span.price {
+    margin: 10px;
+}

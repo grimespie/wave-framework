@@ -1,0 +1,9 @@
+<?php
+
+/**
+ *
+ * Icon Shortcodes
+ *
+ */
+
+?>

@@ -1,0 +1,9 @@
+<?php
+
+/**
+ *
+ * Parallax Shortcodes
+ *
+ */
+
+?>

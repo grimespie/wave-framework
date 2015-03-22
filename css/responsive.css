@@ -1,0 +1,93 @@
+/**
+ *
+ * Responsive CSS
+ *
+ */
+ 
+
+
+
+/* Tablet Portrait size to standard 1024 */
+@media only screen and (max-width: 1024px) {
+    #cta-large-container img {
+        display: none;
+    }
+    
+    #banner-inside iframe {
+        width: 346px;
+        height: 225px;
+    }
+    
+    #banner h1 {
+        font-size: 46px;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    .latest-border {
+        margin-bottom: 50px;
+    }
+    
+    #directory-sections h3 {
+        margin-top: 50px;
+    }
+    
+    #footer-logo p.copyright {
+        position: relative;
+        text-align: center;
+        top: 0px;
+        left: 0px;
+        margin-top: 0px;
+    }
+    
+    #footer-creative-pioneers {
+        margin-top: 20px;
+    }
+    
+    #cta-large-hire-creative, #cta-large-creative-agencies, #cta-large-creative-people, #cta-large-education, #cta-large-business-support {
+        margin-bottom: 40px;
+    }
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait */
+@media only screen and (max-width: 767px) {
+    #logo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #header-top-bar {
+        display: none;
+    }
+
+    #header-wrapper {
+        border: none !important;
+    }
+    
+    #banner-inside iframe {
+        margin-top: 20px;
+    }
+    
+    #top-bar {
+        display: none;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size */
+@media only screen and (max-width: 479px) {
+    #banner h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    #banner-inside iframe {
+        width: 319px;
+        height: 179px;
+    }
+}

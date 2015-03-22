@@ -1,0 +1,40 @@
+/**
+ *
+ * Headers
+ *
+ */
+
+.animated-header {
+    box-shadow: 0px 0px 15px #333;
+}
+
+.wave-fixed-header {
+    position: fixed;
+    width: 100%;
+    z-index: 3000;
+}
+
+.menu-mobile-navigation-container {
+    display: none;
+}
+
+.facebook-color i, .facebook-hover i:hover {
+    color: #3b5998;
+}
+
+.twitter-color i, .twitter-hover i:hover {
+    color: #00aced;
+}
+
+.linkedin-color i, .linkedin-hover i:hover {
+    color: #007bb6;
+}
+
+.youtube-color i, .youtube-hover i:hover {
+    color: #bb0000;
+}
+
+.social-icon-move i:hover {
+    position: relative;
+    top: -1px;
+}

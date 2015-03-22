@@ -1,0 +1,12 @@
+.user-rich-editing-wrap, .user-admin-color-wrap, .user-comment-shortcuts-wrap, .user-admin-bar-front-wrap, .user-display-name-wrap, .user-user-login-wrap, .user-nickname-wrap, .user-sessions-wrap, .user-description-wrap {
+    display: none;
+}
+
+#wordpress-seo {
+    display: none;
+}
+
+h3 {
+    border-top: 1px solid #CCCCCC;
+    padding-top: 20px;
+}

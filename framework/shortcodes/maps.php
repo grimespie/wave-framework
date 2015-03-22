@@ -1,0 +1,9 @@
+<?php
+
+/**
+ *
+ * Map Shortcodes
+ *
+ */
+
+?>
