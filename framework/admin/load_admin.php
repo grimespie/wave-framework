@@ -24,10 +24,6 @@ include_once("options/WF_LandingPages.php");
 include_once("options/WF_SocialMedia.php");
 include_once("options/WF_CustomCSS.php");
 
-include_once("tools/WF_Forms.php");
-include_once("tools/WF_CTAs.php");
-include_once("tools/WF_Emails.php");
-
 class WaveAdmin {
 
     public function add_templates_page() {
@@ -291,6 +287,6 @@ class WaveAdmin {
 }
 
 add_action("admin_menu", array("WaveAdmin", "add_settings_page"));
-add_action("admin_menu", array("WaveAdmin", "add_templates_page"));
+//add_action("admin_menu", array("WaveAdmin", "add_templates_page"));
 
 ?>
